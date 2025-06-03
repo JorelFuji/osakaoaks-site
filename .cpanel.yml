@@ -1,0 +1,3 @@
+deployment:
+  tasks:
+    - /bin/cp -r * /home/YOUR_CPANEL_USER/public_html
