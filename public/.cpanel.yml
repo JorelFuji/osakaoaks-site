@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - /bin/rm -rf /home/osakuqbj/public_html/*
+    - /bin/cp -R /home/osakuqbj/repositories/osakaoaks-site/build/* /home/osakuqbj/public_html/
