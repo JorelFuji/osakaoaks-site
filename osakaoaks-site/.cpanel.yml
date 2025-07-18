@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-   - export DEPLOYPATH=/home/osakuqbj/public_html
-   - /bin/cp -r * /home/osakuqbj/public_html
