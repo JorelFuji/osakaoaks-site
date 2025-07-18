@@ -1,3 +1,4 @@
 deployment:
   tasks:
-    - /bin/cp -r * /home/osakuqbj/public_html
+    - export DEPLOYPATH=/home/osakuqbj/public_html
+    - /bin/cp -r ./* $DEPLOYPATH
